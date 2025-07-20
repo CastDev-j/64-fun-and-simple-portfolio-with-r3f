@@ -1,7 +1,7 @@
 import { Suspense } from "react";
-import { Laptop } from "../models/laptop";
 import { PlaceHolder } from "./PlaceHolder";
 import { Environment, PresentationControls } from "@react-three/drei";
+import { LaptopComponent } from "../models/LaptopComponent";
 
 export const ModelsGroup = () => {
   return (
@@ -20,7 +20,7 @@ export const ModelsGroup = () => {
           <Environment preset="city" />
 
           {/* Laptop Model */}
-          <Laptop />
+          <LaptopComponent />
         </PresentationControls>
       </Suspense>
     </group>

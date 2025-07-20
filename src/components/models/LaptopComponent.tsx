@@ -1,7 +1,7 @@
 import { Center, Float, Html, Text, useGLTF } from "@react-three/drei";
 import { Mesh } from "three";
 
-export const Laptop = () => {
+export const LaptopComponent = () => {
   const computer = useGLTF(
     "https://threejs-journey.com/resources/models/macbook_model.gltf"
   );
